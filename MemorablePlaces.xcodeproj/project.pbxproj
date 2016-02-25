@@ -12,6 +12,8 @@
 		2A2CA7461C7DA03B00D30114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2CA7441C7DA03B00D30114 /* Main.storyboard */; };
 		2A2CA7481C7DA03C00D30114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2CA7471C7DA03C00D30114 /* Assets.xcassets */; };
 		2A2CA74B1C7DA03C00D30114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2CA7491C7DA03C00D30114 /* LaunchScreen.storyboard */; };
+		2A2CA7531C7DA53500D30114 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CA7521C7DA53500D30114 /* TableViewController.swift */; };
+		2A2CA7551C7DA7A600D30114 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2CA7541C7DA7A600D30114 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2A2CA7471C7DA03C00D30114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2CA74A1C7DA03C00D30114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2CA74C1C7DA03C00D30114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2CA7521C7DA53500D30114 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2A2CA7541C7DA7A600D30114 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2CA7551C7DA7A600D30114 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		2A2CA7341C7DA03B00D30114 = {
 			isa = PBXGroup;
 			children = (
+				2A2CA7541C7DA7A600D30114 /* CoreLocation.framework */,
 				2A2CA73F1C7DA03B00D30114 /* MemorablePlaces */,
 				2A2CA73E1C7DA03B00D30114 /* Products */,
 			);
@@ -57,6 +63,7 @@
 				2A2CA7401C7DA03B00D30114 /* AppDelegate.swift */,
 				2A2CA7421C7DA03B00D30114 /* ViewController.swift */,
 				2A2CA7441C7DA03B00D30114 /* Main.storyboard */,
+				2A2CA7521C7DA53500D30114 /* TableViewController.swift */,
 				2A2CA7471C7DA03C00D30114 /* Assets.xcassets */,
 				2A2CA7491C7DA03C00D30114 /* LaunchScreen.storyboard */,
 				2A2CA74C1C7DA03C00D30114 /* Info.plist */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2CA7431C7DA03B00D30114 /* ViewController.swift in Sources */,
+				2A2CA7531C7DA53500D30114 /* TableViewController.swift in Sources */,
 				2A2CA7411C7DA03B00D30114 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
